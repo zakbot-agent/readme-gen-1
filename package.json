@@ -1,0 +1,28 @@
+{
+  "name": "readme-gen",
+  "version": "1.0.0",
+  "description": "Auto-generates a beautiful README.md from your project's structure — no more blank READMEs",
+  "main": "dist/index.js",
+  "bin": {
+    "readme-gen": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": [
+    "readme",
+    "generator",
+    "cli",
+    "documentation",
+    "markdown",
+    "project-structure"
+  ],
+  "author": "Zakaria Kone",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.19.15",
+    "typescript": "^5.9.3"
+  }
+}
